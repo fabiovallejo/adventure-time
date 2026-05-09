@@ -8,9 +8,20 @@
             diseñada para la aventura.
         </p>
 
-        <div class="d-flex justify-content-center gap-3">
-            <a href="equipos.php" class="btn btn-primary btn-lg">Explorar Equipos</a>
-            <a href="reservar.php" class="btn btn-outline-light btn-lg">Realizar Reserva</a>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="equipos.php" class="btn btn-primary btn-lg d-flex align-items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="pointer-events: none;">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+                Explorar Equipos
+            </a>
+            <a href="reservar.php" class="btn btn-outline-light btn-lg d-flex align-items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar-plus" viewBox="0 0 16 16" style="pointer-events: none;">
+                    <path d="M8 7a.5.5 0 0 1 .5.5V9H10a.5.5 0 0 1 0 1H8.5v1.5a.5.5 0 0 1-1 0V10H6a.5.5 0 0 1 0-1h1.5V7.5A.5.5 0 0 1 8 7z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg>
+                Realizar Reserva
+            </a>
         </div>
     </div>
 </header>
